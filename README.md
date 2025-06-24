@@ -24,7 +24,7 @@ Install my-project with npm
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/your-repo.git
+git clone https://github.com/DavidVillagrana/PortafolioWeb.git
 cd your-repo
 
 # Install dependencies
@@ -35,7 +35,6 @@ npm run dev
 ```
 
 ## ⚙️ Main Features
-
 
 - Smooth scroll navigation between sections (react-scroll)
 - Fully responsive design with TailwindCSS
@@ -87,9 +86,9 @@ Graphic resources from [React Icons](https://react-icons.github.io/react-icons/)
 ## 📄 License
 This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License. You are free to use, modify, and share it.
 
-
 Made with passion for code💻 and coffee☕
 
 Github
 [DavidVillagrana](https://github.com/DavidVillagrana)
-[linkeding](https://www.linkedin.com/in/david-alejandro-villagrana-valencia-a19996365/)
+
+[linkeding](https://www.linkedin.com/in/david-alejandro-villagrana-valencia-a19996365/) David Alejandro Villagrana Valencia
