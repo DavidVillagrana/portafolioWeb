@@ -79,16 +79,19 @@ Here is the main folder and file structure of my portfolio, organized for mainta
 
 ## 📝 Credits
 
-Card design inspired by an example from [Midudev](https://www.youtube.com/@midudev), with personal modifications.
+Card design inspired by an example from [Midudev] (https://www.youtube.com/@midudev), with personal modifications.
 
 Graphic resources from [React Icons](https://react-icons.github.io/react-icons/).
 
 ## 📄 License
-This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License. You are free to use, modify, and share it.
+This project is licensed under the MIT License. You are free to use, modify, and share it.
 
 Made with passion for code💻 and coffee☕
+
+## 📧 Contact me
 
 Github
 [DavidVillagrana](https://github.com/DavidVillagrana)
 
-[linkeding](https://www.linkedin.com/in/david-alejandro-villagrana-valencia-a19996365/) David Alejandro Villagrana Valencia
+LinkeIn
+[David Alejandro Villagrana Valencia](https://www.linkedin.com/in/david-alejandro-villagrana-valencia-a19996365/) 
