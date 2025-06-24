@@ -1,4 +1,4 @@
-import educationImage from "../../assets/images/educacionFondo.png"; //Ruta para poder llamar la imagen que quieras poner en tu fonde de educacion (opcional)
+import educationImage from "../../assets/images/educacionFondo.png"; //Ruta para poder llamar la imagen que quieras poner en tu fondo de educacion (opcional)
 
 function EducationMain() {
   return (

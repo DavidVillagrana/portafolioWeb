@@ -1,4 +1,3 @@
-// components/SkillCard.jsx
 import sprite from "../../assets/sprite.svg";
 
 const SkillsCards = ({

@@ -8,8 +8,6 @@ const links = [
   { link: "Experiencia", section: "experience" },
   { link: "Proyectos", section: "projects" },
   { link: "Educacion", section: "education" },
-  /*{ link: "Footer", section: "footer"},  EN ESTA OCACION NO ESTAMOS UTILIZANDO NINGUN FOOTER PERO QUEDA LISTO POR SI LO DESEAS UTILIZAR
-   */
 ];
 
 const NavbarLinks = () => {
