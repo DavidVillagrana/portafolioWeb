@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+/* ANIMACION PARA LAS LETRAS DE INICIO QUE VAN CAMBIANDO DE COLOR EN AUTOMATICO*/
+@keyframes vibrant-color-change {
+  0% {
+    color: #ffffff;
+  } /* blanco */
+  15% {
+    color: #3b82f6;
+  } /* azul cielo */
+  30% {
+    color: #059669;
+  } /* verde esmeralda */
+  50% {
+    color: #fbbf24;
+  } /* amarillo mostaza */
+  70% {
+    color: #fb923c;
+  } /* naranja coral */
+  85% {
+    color: #f472b6;
+  } /* rosa suave */
+  100% {
+    color: #8b5cf6;
+  } /* lavanda fuerte */
+}
+
+.animate-vibrant-color {
+  animation: vibrant-color-change 8s ease-in-out infinite;
+}
+
+/* COLOR BASE DE FONDO DE TODO EL SISTEMA (PORTAFOLIO WEB) 
+DESDE AQUI PUEDES OPTAR POR USAR UN COLOR DEGRADIENTE A TU ESTILO O NO*/
+.body-gradient {
+  background: linear-gradient(
+    to bottom,
+    #000000,
+    #0a1e3f,
+    #1e40af,
+    #334155,
+    #1e293b
+  );
+  min-height: 100vh;
+  max-width: 100vw;
+  margin: 0 auto;
+}
