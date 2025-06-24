@@ -67,31 +67,41 @@ Here is the main folder and file structure of my portfolio, organized for mainta
 ├── index.css               # Base styles, including Tailwind
 └── main.jsx                # Entry point of the application
 
+```
+
 ## 📚 Included Sections
 
 ✅ Navbar
+
 ✅ Hero (Presentation)
+
 ✅ About (About me)
+
 ✅ Skills
+
 ✅ Experience (Experience)
+
 ✅ Projects (Featured projects)
+
 ✅ Education (Education)
 
 ## 📝 Credits
 
-Card design inspired by an example from [Midudev] (https://www.youtube.com/@midudev), with personal modifications.
+Card design inspired by an example from [Midudev](https://www.youtube.com/@midudev), with personal modifications.
 
 Graphic resources from [React Icons](https://react-icons.github.io/react-icons/).
 
 ## 📄 License
-This project is licensed under the MIT License. You are free to use, modify, and share it.
-
-Made with passion for code💻 and coffee☕
+This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License. You are free to use, modify, and share it.
 
 ## 📧 Contact me
 
-Github
+Github:
 [DavidVillagrana](https://github.com/DavidVillagrana)
 
-LinkeIn
+LinkedIn:
 [David Alejandro Villagrana Valencia](https://www.linkedin.com/in/david-alejandro-villagrana-valencia-a19996365/) 
+
+
+
+Made with passion for code💻 and coffee☕
