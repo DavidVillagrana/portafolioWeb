@@ -1,8 +1,8 @@
-# Web Portafolio
+# Portafolio Web
 
-This is my personal portfolio developed with React and styled with Tailwind CSS. It was created with the goal of showcasing my projects, skills, and experience as a web developer.
+Este es mi portafolio personal desarrollado con React y estilizado con Tailwind CSS. Fue creado con el objetivo de mostrar mis proyectos, habilidades y experiencia como desarrollador web.
 
-🚀 Technologies Used
+🚀 Tecnologías utilizadas.
 
 ⚛️ React 19 – Library for building user interfaces.
 
@@ -18,9 +18,9 @@ This is my personal portfolio developed with React and styled with Tailwind CSS.
 
 🧹 ESLint – To keep the code clean and organized.
 
-## Installation
+## Instalación
 
-Install my-project with npm
+Instalación de my-project con npm
 
 ```bash
 # Clone the repository
@@ -34,17 +34,17 @@ npm install
 npm run dev
 ```
 
-## ⚙️ Main Features
+## ⚙️ Funciones Principales
 
-- Smooth scroll navigation between sections (react-scroll)
-- Fully responsive design with TailwindCSS
-- Reusable components (Navbar, Card, etc.)
-- Smooth animations and micro-interactions using Tailwind utilities
+- Navegación con scroll suave entre secciones (React-scroll).
+- Diseño totalmente responsivo con TailwindCSS.
+- Componentes reutilizables, (Navbar, Card, etc.)
+- Animaciones suaves e interacciones micro usando utilidades de Tailwind 
 
 
-## 🗂 Project Structure
+## 🗂 Estructura del proyecto 
 
-Here is the main folder and file structure of my portfolio, organized for maintainability and scalability:
+Estructura principal de carpetas y archivos de mi portafolio, organizada para facilitar su mantenimiento y escalabilidad:
 
 ```plaintext
 📦 src
@@ -69,32 +69,32 @@ Here is the main folder and file structure of my portfolio, organized for mainta
 
 ```
 
-## 📚 Included Sections
+## 📚 Secciones incluidas
 
 ✅ Navbar
 
-✅ Hero (Presentation)
+✅ Hero (Presentación)
 
-✅ About (About me)
+✅ About (Sobre mí)
 
-✅ Skills
+✅ Skills (Habilidades)
 
-✅ Experience (Experience)
+✅ Experience (Experiencia)
 
-✅ Projects (Featured projects)
+✅ Projects (Proyectos destacados)
 
-✅ Education (Education)
+✅ Education (Educación)
 
-## 📝 Credits
+## 📝 Creditos
 
-Card design inspired by an example from [Midudev](https://www.youtube.com/@midudev), with personal modifications.
+Diseño de las cards inspirado en un ejemplo de [Midudev](https://www.youtube.com/@midudev), con modificaciones personales.
 
-Graphic resources from [React Icons](https://react-icons.github.io/react-icons/).
+Recursos gráficos [React Icons](https://react-icons.github.io/react-icons/).
 
-## 📄 License
-This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License. You are free to use, modify, and share it.
+## 📄 Licencia
+Este proyecto esta bajo la licencia [MIT](https://choosealicense.com/licenses/mit/). Eres libre de usarlo, modificarlo y compartirlo.
 
-## 📧 Contact me
+## 📧 Contacto
 
 Github:
 [DavidVillagrana](https://github.com/DavidVillagrana)
@@ -104,4 +104,4 @@ LinkedIn:
 
 
 
-Made with passion for code💻 and coffee☕
+"Hecho con pasión por el codigo 💻 y el café ☕ por 'The Dave Code'".
