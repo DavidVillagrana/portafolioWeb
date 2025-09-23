@@ -4,7 +4,6 @@ import { Link } from "react-scroll";
 const links = [
   { link: "Inicio", section: "index" },
   { link: "Acerca de Mi", section: "about" },
-  { link: "Skills", section: "skills" },
   { link: "Experiencia", section: "experience" },
   { link: "Proyectos", section: "projects" },
   { link: "Educacion", section: "education" },

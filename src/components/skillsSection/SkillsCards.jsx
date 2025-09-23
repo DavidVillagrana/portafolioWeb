@@ -3,20 +3,20 @@ import sprite from "../../assets/sprite.svg";
 const SkillsCards = ({
   name,
   icon,
-  experience,
+  //experience,
   bgGradient,
   badgePosition = "top-left",
   svgSize = 100,
 }) => {
   
-  const badgePositionClasses =
+ /*  const badgePositionClasses =
     badgePosition === "top-left"
       ? "bottom-2 left-2"
       : badgePosition === "bottom-left"
       ? "top-2 left-2"
       : badgePosition === "top-right"
       ? "bottom-2 left-2"
-      : "bottom-2 left-2";
+      : "bottom-2 left-2"; */
 
   return (
     <div
@@ -42,14 +42,14 @@ const SkillsCards = ({
       >
         <use xlinkHref={`${sprite}#${icon}`} />
       </svg>
-      <div
+      {/* <div
         className={`absolute ${badgePositionClasses} text-white text-sm bg-opacity-80 px-2 py-1 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-30`}
         style={{
           backgroundColor: `rgba(0, 0, 0, 0.6)`,
         }}
       >
         {experience}
-      </div>
+      </div> */}
     </div>
   );
 };

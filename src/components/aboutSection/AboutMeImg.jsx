@@ -1,4 +1,4 @@
-import imgUserAbout from "../../assets/images/userImage.png"; //esta es la ruta en done pondras tu imagen para el apartado de about
+import imgUserAbout from "../../assets/images/imagen_David_About.png"; //esta es la ruta en done pondras tu imagen para el apartado de about
 
 function AboutMeImg() {
   return (

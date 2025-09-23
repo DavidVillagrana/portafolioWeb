@@ -1,4 +1,4 @@
-import imagenUser from "../../assets/images/userImage2.png"; //Ruta de donde traer tu imagen principal del portafolio
+import imagenUser from "../../assets/images/imagen_David_ing.png"; //Ruta de donde traer tu imagen principal del portafolio
 import sprite from "../../assets/sprite.svg";
 import { PiHexagonThin } from "react-icons/pi";
 
@@ -25,7 +25,7 @@ const HeroMain = () => {
                     rounded-full hover:scale-110 transition-transform
                     animate-slide-up-fade animate-delay-200 bg-gradient-to-tr
                     from-yellow-300 via-pink-500 to-purple-600"
-          href="https://www.instagram.com/" //Puedes poner tu URL de tu perfil de Instagram
+          href="https://www.instagram.com/thedavee.v/" //Puedes poner tu URL de tu perfil de Instagram
           target="_blank"
           aria-label="instagram"
           title="Ir a istagram"
@@ -34,7 +34,7 @@ const HeroMain = () => {
             <use xlinkHref={`${sprite}#instagram`} />
           </svg>
         </a>
-        <a
+       {/*  <a
           className="p-2 size-12 sm:size-16 flex items-center justify-center
                     rounded-full hover:scale-110 transition-transform
                     animate-slide-up-fade animate-delay-200 bg-gradient-to-tr
@@ -47,8 +47,8 @@ const HeroMain = () => {
           <svg>
             <use xlinkHref={`${sprite}#x`} />
           </svg>
-        </a>
-        <a
+        </a> */}
+        {/* <a
           className="p-2 size-12 sm:size-16 flex items-center justify-center
                     rounded-full hover:scale-110 transition-transform
                     animate-slide-up-fade animate-delay-200 bg-gradient-to-tr
@@ -61,13 +61,13 @@ const HeroMain = () => {
           <svg>
             <use xlinkHref={`${sprite}#youtube`} />
           </svg>
-        </a>
+        </a> */}
         <a
           className="p-2 size-12 sm:size-16 flex items-center justify-center
                     rounded-full hover:scale-110 transition-transform
                     animate-slide-up-fade animate-delay-200 bg-gradient-to-tr
                     from-blue-100 via-blue-200 to-blue-400"
-          href="https://www.linkedin.com/" //Puedes poner tu URL de tu perfil de LinkedIn
+          href="https://www.linkedin.com/in/david-alejandro-villagrana-valencia-a19996365/" //Puedes poner tu URL de tu perfil de LinkedIn
           target="_blank"
           aria-label="linkedin"
           title="Ir a Linkedin"
@@ -81,7 +81,7 @@ const HeroMain = () => {
                     rounded-full hover:scale-110 transition-transform
                     animate-slide-up-fade animate-delay-200 bg-gradient-to-tr
                     from-gray-500 via-gray-700 to-gray-900"
-          href="https://www.github.com/" //Puedes poner tu URL de tu perfil de GitHub
+          href="https://github.com/DavidVillagrana" //Puedes poner tu URL de tu perfil de GitHub
           target="_blank"
           aria-label="github"
           title="Ir a GitHub"

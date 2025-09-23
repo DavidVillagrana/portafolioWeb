@@ -8,15 +8,13 @@ const skills = [
   {
     name: "JavaScript", //Título  itulo de nuestra card
     icon: "javascript", //ASEGURATE QUE EL ID DEL ICONO SEA EL MISMO QUE SE TIENE EN EL sprite.svg
-    experience: "+1 años de experiencia",
     bgGradient: "linear-gradient(to bottom right, #b45309, #f59e0b, #fef3c7)", //Colores de nuestra card
     badgePosition: "top-left", //Posicion de nuestro título de nuestra card
     svgSize: 90, //Tamaño de nuestro icono SVG
   },
   {
-    name: "React.js",
+    name: "React.js", 
     icon: "react",
-    experience: "+1 años de experiencia",
     bgGradient: "linear-gradient(to bottom right, #164e63, #0e7490, #06b6d4)",
     badgePosition: "bottom-left",
     /* NOTA: por defecto nuestro "svgSize" ya tiene un tamaño predeterminado de 100, pero si ocupas manejar otro tamaño puedes manipularlo
@@ -25,20 +23,17 @@ const skills = [
   {
     name: "Node.js",
     icon: "node",
-    experience: "+1 años de experiencia",
     bgGradient: "linear-gradient(to bottom right, #065f46, #16a34a, #6ee7b7)",
   },
   {
     name: "HTML",
     icon: "html",
-    experience: "+1 años de experiencia",
     bgGradient: "linear-gradient(to bottom right, #7c2d12, #ea580c, #fdba74)",
     badgePosition: "bottom-left",
   },
   {
     name: "TypeScript",
     icon: "typescript",
-    experience: "+1 años de experiencia",
     bgGradient:
       "linear-gradient(to bottom right, #142c41, #1e46a6, #54b7e9, #a2e1ff)",
     badgePosition: "top-left"
@@ -46,14 +41,12 @@ const skills = [
   {
     name: "CSS",
     icon: "css",
-    experience: "+1 años de experiencia",
     bgGradient: "linear-gradient(to bottom right, #4c1d95, #9333ea, #d8b4fe)",
     badgePosition: "bottom-left",
   },
   {
     name: "Git",
     icon: "git",
-    experience: "+1 años de experiencia",
     bgGradient: "linear-gradient(to bottom right, #000, #ea580c, #fdba74)",
     badgePosition: "bottom-left",
     svgSize: 150,
@@ -61,7 +54,6 @@ const skills = [
   {
     name: "GitHub",
     icon: "github",
-    experience: "+1 años de experiencia",
     bgGradient: "linear-gradient(to bottom right, #000, #4b5563, #d1d5db)",
     badgePosition: "top-left",
     svgSize: 95,
@@ -69,7 +61,6 @@ const skills = [
   {
     name: "MongoDB",
     icon: "mongodb",
-    experience: "+6 meses de experiencia",
     bgGradient:
       "linear-gradient(to bottom right, #1e3a8a, #0d687f, #0d7f0d, #052e16)",
     badgePosition: "bottom-left",
@@ -77,7 +68,6 @@ const skills = [
   {
     name: "PostgreSQL",
     icon: "postgresql",
-    experience: "+1 años de experiencia",
     bgGradient: "linear-gradient(to bottom right, #0369a1, #38bdf8, #bae6fd)",
     badgePosition: "top-left",
     svgSize: 130,
@@ -85,14 +75,12 @@ const skills = [
   {
     name: "Hero UI",
     icon: "heroui",
-    experience: "+1 años de experiencia",
     bgGradient: "linear-gradient(to bottom right, #000, #7c3aed, #c4b5fd)",
     badgePosition: "bottom-left",
   },
   {
     name: "Tailwind CSS",
     icon: "tailwindcss",
-    experience: "+3 meses de experiencia",
     bgGradient: "linear-gradient(to bottom right, #0284c7, #7dd3fc, #e0f2fe)",
     badgePosition: "top-left"
   },

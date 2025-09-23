@@ -22,14 +22,12 @@ function AboutMeText() {
       </h2>
 
       <p className="mt-4 text-md px-2 text-balance text-white">
-        Soy desarrollador Full Stack con enfoque en el ecosistema JavaScript,
-        especializado en la creación de aplicaciones web eficientes, escalables
-        y con interfaces modernas. Tengo experiencia trabajando con tecnologías
-        como React, Node.js, Tailwind CSS, TypeScript, PostgreSQL y MongoDB. He
-        participado en proyectos de desarrollo web desde el diseño hasta el
-        despliegue en producción, colaborando en equipos ágiles bajo
+        Soy desarrollador Full Stack especializado en el ecosistema JavaScript.
+        Trabajo con tecnologías como React, Node.js, Tailwind CSS, TypeScript,
+        PostgreSQL y MongoDB. He participado en proyectos completos, desde el
+        diseño hasta el despliegue, colaborando en equipos ágiles con
         metodologías como Scrum.
-      </p> 
+      </p>
 
       <p className="mt-6 px-2 text-white font-semibold">
         Además, destaco por mis habilidades interpersonales y profesionales:
@@ -46,7 +44,7 @@ function AboutMeText() {
         ))}
       </div>
 
-       <div className="flex flex-wrap gap-3 mt-3 px-2">
+      <div className="flex flex-wrap gap-3 mt-3 px-2">
         <AboutBtn />
       </div>
     </div>
