@@ -24,7 +24,7 @@ Instalación de my-project con npm
 
 ```bash
 # Clone the repository
-git clone https://github.com/DavidVillagrana/PortafolioWeb.git
+git clone https://github.com/DavidVillagrana/PortafolioWeb
 cd your-repo
 
 # Install dependencies
