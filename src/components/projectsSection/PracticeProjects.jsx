@@ -1,4 +1,6 @@
 import portafolioImage from "../../assets/images/ImagePortafolio.png"; //Ruta de donde se manda a llamar la imagen para tu proyecto
+import calculatorImage from "../../assets/images/imageCalculator.png";
+import anthillImage from "../../assets/images/imageAnthill.png";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 /* Ejemplo de como poner los proyectos una vez los tengas listos en tu portafolio de proyectos y 
@@ -6,49 +8,55 @@ quieras agregarlos a tu portafolio web */
 const projectsFront = [
   {
     id: 1,
-    title: "Portafolio Web",
+    title: "Calculadora básica",
     description:
-      "Sitio web de portafolio profesional creado con React para la estructura y Tailwind CSS para el diseño responsivo.",
-    image: portafolioImage, //Imagen de tu proyecto
-    tags: ["React", "TailwindCSS"],
-    githubUrl: "https://github.com/", //Coloca la URL real del proyecto
+      "Calculadora convencional diseñada para probar la lógica de programación y la implementación de operaciones matemáticas básicas.",
+    image: calculatorImage, //Imagen de tu proyecto
+    tags: ["React", "JavaScript", "CSS"],
+    githubUrl: "https://github.com/DavidVillagrana/CalculadoraBasica", //Coloca la URL real del proyecto
   },
   {
     id: 2,
-    title: "Proyecto ejemplo 2",
+    title: "Simulación de Hormiguero",
     description:
-      "Aqui pondras la descripcion de tu proyecto.",
-    image: portafolioImage, //Imagen de tu proyecto 
-    tags: ["React", "TailwindCSS"],
-    githubUrl: "https://github.com/", //Coloca la URL real del proyecto
-  },
-  {
-    id: 3,
-    title: "Proyecto ejemplo 3",
-    description:
-      "Aqui pondras la descripcion de tu proyecto.",
-    image: portafolioImage, //Imagen de tu proyecto
-    tags: ["React", "TailwindCSS"],
-    githubUrl: "https://github.com/", //Coloca la URL real del proyecto
+      "simulación visual de un hormiguero para representar gráficamente el comportamiento colectivo de las hormigas.",
+    image: anthillImage, //Imagen de tu proyecto
+    tags: ["HTML", "JavaScript"],
+    githubUrl: "https://github.com/DavidVillagrana", //Coloca la URL real del proyecto
   },
 ];
 
-function FrontEndProjects() {
+/*Estilos utilizados para nuestros tags o tecnoligias en nuestras tarjetas de proyectos
+aqui puedes agregar estilos personalizados para que los tags de tus proyectos
+sean dinamicos y que cada uno tenga su propio estilo para personalizar tus tarjetas de proyectos */
+const tagStyles = {
+  React: "bg-gradient-to-r from-cyan-400 to-blue-500 text-white",
+  TailwindCSS: "bg-gradient-to-r from-teal-400 to-cyan-500 text-white",
+  JavaScript: "bg-gradient-to-r from-yellow-300 to-yellow-500 text-black",
+  NodeJS: "bg-gradient-to-r from-green-500 to-emerald-600 text-white",
+  MongoDB: "bg-gradient-to-r from-emerald-400 to-green-600 text-white",
+  CSS: "bg-gradient-to-r from-purple-900 via-purple-600 to-purple-300 text-white",
+  HTML: "bg-gradient-to-r from-orange-900 via-orange-600 to-orange-300 text-white",
+};
+
+function Projects() {
   return (
     <div className="px-6">
       <section id="projectsFront" className="py-10 px-4 relative">
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-center mb-4">
             <span className="inline-block text-3xl md:text-4xl font-bold text-gray-300 underline transition-transform hover:scale-110 hover:text-cyan-300">
-              Proyectos<span className="text-cyan-300"> Frontend</span>
+              Proyectos
+              <span className="text-cyan-300"> Prácticos</span>
             </span>
           </h2>
 
           <p className="text-center text-gray-300 mb-12 max-w-2xl mx-auto">
-            Proyectos enfocados en la interfaz de usuario utilizando tecnologías
-            modernas como React y Tailwind CSS.
+            Ejercicios y pequeñas aplicaciones donde pongo en práctica conceptos
+            clave de programación. Estos proyectos me han permitido afianzar mis
+            conocimientos, experimentar con nuevas ideas y fortalecer mis
+            habilidades como desarrollador.
           </p>
-
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {projectsFront.length > 0 ? (
               projectsFront.map((project) => (
@@ -66,14 +74,18 @@ function FrontEndProjects() {
                   </div>
                   <div className="p-6">
                     <div className="flex flex-wrap gap-2 mb-4">
-                      {project.tags.map((tag, index) => (
-                        <span
-                          key={index}
-                          className="px-2 py-1 text-xs font-medium border rounded-full bg-cyan-700 text-gray-200"
-                        >
-                          {tag}
-                        </span>
-                      ))}
+                      {project.tags.map((tag, index) => {
+                        const tagClass =
+                          tagStyles[tag] || "bg-gray-500 text-white"; // fallback por si no está definido
+                        return (
+                          <span
+                            key={index}
+                            className={`px-2 py-1 text-xs font-medium rounded-full shadow-md ${tagClass}`}
+                          >
+                            {tag}
+                          </span>
+                        );
+                      })}
                     </div>
                     <h3 className="text-xl text-center font-semibold mb-1 text-blue-100 transition-transform hover:scale-110 hover:text-blue-300">
                       {project.title}
@@ -99,8 +111,8 @@ function FrontEndProjects() {
                 </div>
               ))
             ) : (
-              <div className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover flex items-center justify-center h-48">
-                <span className="text-gray-300 text-lg font-semibold">
+              <div className="col-span-full flex items-center justify-center h-40 bg-gray-800 text-gray-300 rounded-lg shadow">
+                <span className="text-center text-lg font-medium px-4">
                   Sección en desarrollo. Nuevos proyectos serán añadidos pronto.
                 </span>
               </div>
@@ -112,4 +124,4 @@ function FrontEndProjects() {
   );
 }
 
-export default FrontEndProjects;
+export default Projects;

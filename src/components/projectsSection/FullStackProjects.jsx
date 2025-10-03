@@ -15,24 +15,7 @@ const projectsFront = [
     tags: ["React", "TailwindCSS"],
     githubUrl: "https://github.com/davidVillagrana/PortafolioWeb", //Coloca la URL real del proyecto
   },
-  {
-    id: 2,
-    title: "Calculadora básica",
-    description: "Calculadora convencional diseñada para probar la lógica de programación y la implementación de operaciones matemáticas básicas.",
-    image: calculatorImage, //Imagen de tu proyecto
-    tags: ["React", "JavaScript", "CSS"],
-    githubUrl: "https://github.com/DavidVillagrana/CalculadoraBasica", //Coloca la URL real del proyecto
-  },
-  {
-    id: 3,
-    title: "Simulación de Hormiguero",
-    description: "simulación visual de un hormiguero para representar gráficamente el comportamiento colectivo de las hormigas.",
-    image: anthillImage, //Imagen de tu proyecto
-    tags: ["HTML", "JavaScript"],
-    githubUrl: "https://github.com/", //Coloca la URL real del proyecto
-  },
 ];
-
 
 /*Estilos utilizados para nuestros tags o tecnoligias en nuestras tarjetas de proyectos
 aqui puedes agregar estilos personalizados para que los tags de tus proyectos
@@ -44,7 +27,7 @@ const tagStyles = {
   NodeJS: "bg-gradient-to-r from-green-500 to-emerald-600 text-white",
   MongoDB: "bg-gradient-to-r from-emerald-400 to-green-600 text-white",
   CSS: "bg-gradient-to-r from-purple-900 via-purple-600 to-purple-300 text-white",
-  HTML: "bg-gradient-to-r from-orange-900 via-orange-600 to-orange-300 text-white"
+  HTML: "bg-gradient-to-r from-orange-900 via-orange-600 to-orange-300 text-white",
 };
 
 function Projects() {
@@ -52,6 +35,20 @@ function Projects() {
     <div className="px-6">
       <section id="projectsFront" className="py-10 px-4 relative">
         <div className="container mx-auto max-w-6xl">
+          <h2 className="text-center mb-4">
+            <span className="inline-block text-3xl md:text-4xl font-bold text-gray-300 underline transition-transform hover:scale-110 hover:text-cyan-300">
+              Proyectos
+              <span className="text-cyan-300"> Principales</span>
+            </span>
+          </h2>
+
+          <p className="text-center text-gray-300 mb-12 max-w-2xl mx-auto">
+            Proyectos principales como Desarrollador Full Stack. Son
+            aplicaciones completas que integran frontend y backend, construidas
+            con tecnologías modernas y enfocadas en resolver problemas reales.
+            Aquí muestro mi capacidad para diseñar, desarrollar y desplegar
+            soluciones funcionales de principio a fin.
+          </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {projectsFront.length > 0 ? (
               projectsFront.map((project) => (
@@ -106,8 +103,8 @@ function Projects() {
                 </div>
               ))
             ) : (
-              <div className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover flex items-center justify-center h-48">
-                <span className="text-gray-300 text-lg font-semibold">
+              <div className="col-span-full flex items-center justify-center h-40 bg-gray-800 text-gray-300 rounded-lg shadow">
+                <span className="text-center text-lg font-medium px-4">
                   Sección en desarrollo. Nuevos proyectos serán añadidos pronto.
                 </span>
               </div>
